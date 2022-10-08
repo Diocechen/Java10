@@ -1,5 +1,6 @@
 package java10;
 
+//包含第五題
 class Caa{
 	private int num;
 	
