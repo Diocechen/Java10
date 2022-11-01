@@ -1,5 +1,5 @@
 package java10;
-//包含1,2,3題
+//包含1,2,3,13,14題
 class Caaa{
 	public int num1;
 	public int num2;
@@ -14,6 +14,9 @@ class Caaa{
 }
 
 class Cbbb extends Caaa{
+	Cbbb(){
+		super();
+	}
 	Cbbb(int a,int b){
 		super(a,b);
 	}
@@ -30,12 +33,16 @@ public class Class1 {
 	public static void main(String[] args) {
 		Caaa aa = new Caaa();
 		System.out.println(aa.num1+" "+aa.num2);
+		
 		Cbbb bb1 = new Cbbb(65,56);
 		bb1.show();
+		
 		Cbbb bb2 = new Cbbb(55,66);
 		bb2.show();
+		
+		Cbbb bb3 = new Cbbb();
+		bb3.show();
 	}
-
 }
 
 //若將 num1 及 num2 改成 private 時不能從 setNum() show()存取。
