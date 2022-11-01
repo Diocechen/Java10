@@ -1,5 +1,5 @@
 package java10;
-
+//包含1,2,3題
 class Caaa{
 	public int num1;
 	public int num2;
